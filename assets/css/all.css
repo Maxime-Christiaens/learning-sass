@@ -1,0 +1,359 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+body a {
+  text-decoration: none;
+}
+
+body li {
+  list-style: none;
+  padding: 1em 1em;
+}
+
+.bcGrey {
+  background-color: #E6E6FA;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.menu {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+.menu a {
+  color: black;
+}
+
+.menu a:hover {
+  color: grey;
+}
+
+.menu_left {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.menu_right {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.logo {
+  padding-right: 1em 2em;
+}
+
+h1 {
+  text-align: center;
+  font-weight: normal;
+  font-size: 250%;
+  padding: 2em 0;
+}
+
+.box_1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #3b414f;
+}
+
+.box_1 a {
+  flex-basis: 50%;
+  padding: 3em 3em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 0.5px solid black;
+  color: white;
+}
+
+.box_1 a:hover {
+  background-color: #004080;
+  color: white;
+}
+
+.box_1 a:hover p {
+  color: white;
+}
+
+.box_1 a:active {
+  filter: invert(100%);
+}
+
+.box_1 h3 {
+  margin: 1em 0;
+}
+
+.box_1 p {
+  margin: 1em 0;
+  color: grey;
+}
+
+.images {
+  max-width: 35%;
+  height: auto;
+}
+
+.box_2 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.box_2 h3 {
+  width: calc(100% / 3);
+  text-align: center;
+  line-height: 2em;
+  padding: 2em 0;
+}
+
+.box_2 a {
+  background-color: #3093f7;
+  padding: 0.75em 2.2em;
+  font-size: 2em;
+  border: 1px solid black;
+  border-radius: 6px;
+  font-size: 1.2em;
+  color: white;
+}
+
+.box_2 a:hover {
+  filter: invert(100%);
+}
+
+.box_2 p {
+  margin-top: 1em;
+  margin-bottom: 5em;
+  font-size: 14px;
+}
+
+.div_img {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.div_img img {
+  max-width: 50%;
+  height: auto;
+}
+
+.box_3 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.box_3 h2 {
+  text-align: center;
+  font-size: 28px;
+  padding-top: 3em;
+}
+
+.box_3 h3 {
+  width: calc(100% / 3);
+  text-align: center;
+  line-height: 2em;
+  padding: 2em 0;
+}
+
+.box_4 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.box_4 div {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  padding-top: 1em;
+}
+
+.box_4 div img {
+  max-width: 180px;
+  height: auto;
+}
+
+.box_4 div h3 {
+  font-size: 24px;
+}
+
+.box_4 div p {
+  text-align: center;
+  margin: 1em 0;
+  line-height: 30px;
+  font-size: 20px;
+}
+
+.box_4 div a {
+  background-color: #3093f7;
+  padding: 0.75em 2.2em;
+  font-size: 2em;
+  border: 1px solid black;
+  border-radius: 6px;
+  font-size: 1.2em;
+  color: white;
+}
+
+.box_4 div a:hover {
+  filter: invert(100%);
+}
+
+.box_4 div ul li {
+  text-align: center;
+}
+
+.box_4 div:first-child {
+  border-right: 1px solid grey;
+}
+
+.box_logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3em 0;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+}
+
+.box_logo h2 {
+  padding-bottom: 1em;
+}
+
+.box_logo p {
+  text-align: center;
+  width: 45%;
+  padding-bottom: 1em;
+  line-height: 1.75em;
+}
+
+.box_logo div {
+  width: 80%;
+  text-align: center;
+}
+
+.box_logo div img {
+  max-width: 12%;
+  height: auto;
+}
+
+.boxFormu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3em 0;
+}
+
+.boxFormu h2 {
+  padding-bottom: 1em;
+}
+
+.boxFormu p {
+  text-align: center;
+  width: 45%;
+  padding-bottom: 1em;
+  line-height: 1.75em;
+}
+
+.formu {
+  border: 1px solid black;
+  padding: 1.5em 1em;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+  margin-bottom: 1em;
+}
+
+.formu form label {
+  font-weight: bold;
+}
+
+.formu input {
+  margin-bottom: 2em;
+  widht: 90%;
+}
+
+.formu a {
+  background-color: #3093f7;
+  padding: 0.5em 1.1em;
+  font-size: 1em;
+  border: 1px solid black;
+  border-radius: 6px;
+  font-size: 1.2em;
+  color: white;
+  margin-bottom: 1em;
+}
+
+.formu a:hover {
+  filter: invert(100%);
+}
+
+.formu p {
+  font-weight: bold;
+}
+
+.spidyT {
+  color: grey;
+  text-align: center;
+  width: 50%;
+}
+
+.foot {
+  background-color: #3b414f;
+  color: white;
+}
+
+.foot-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.foot-list ul {
+  width: 15%;
+}
+
+.foot-list ul li {
+  text-align: center;
+}
+
+.logoFoot {
+  max-width: 7%;
+  height: auto;
+}
+
+.Foot_logo {
+  text-align: center;
+  padding: 2em 0;
+}
+
+.foot p {
+  color: grey;
+  text-align: center;
+}
+
+.yolo {
+  padding-top: 1em;
+  padding-bottom: 3em;
+}

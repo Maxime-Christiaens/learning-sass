@@ -65,12 +65,12 @@ h1 {
     .box_1 a p {
       margin: 1em 0;
       color: grey; }
-  .box_1 a:hover {
+  .box_1:hover {
     background-color: #004080;
     color: white; }
-  .box_1 a:hover p {
+  .box_1:hover p {
     color: white; }
-  .box_1 a:active {
+  .box_1:active {
     filter: invert(100%); }
 
 .images {
@@ -95,8 +95,8 @@ h1 {
     border-radius: 6px;
     font-size: 1.2em;
     color: white; }
-  .box_2 a:hover {
-    filter: invert(100%); }
+    .box_2 a:hover {
+      filter: invert(100%); }
   .box_2 p {
     margin-top: 1em;
     margin-bottom: 5em;
