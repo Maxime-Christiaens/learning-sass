@@ -1,0 +1,40 @@
+//Mixins
+
+/* Exemple de Mixin : 
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+.box { @include border-radius(10px); }
+
+*/
+
+@mixin bouton($bg-color,$color){
+	background-color: $bg-color;
+	padding: 0.75em 2.2em;
+	font-size: 2em;
+	border: 1px solid black;
+	border-radius: 6px;
+	font-size: 1.2em;
+	color: $color;
+	&:hover{
+		filter: invert(100%);
+	}
+	}
+
+// à utiliser pour box_2 a : bouton + box_4 div a 
+
+//Pour faire des display flex center soit en row ou column
+
+@mixin flex-center($direction){
+	display: flex;
+	flex-direction: $direction;
+	justify-content: center;
+	align-items: center;
+	}
+
+//end of mixins
